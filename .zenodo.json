@@ -1,3 +1,10 @@
 {
-  "title": "How to tune your DOI record with Zenodo"
+  "title": "How to tune your DOI record with Zenodo",
+  "creators": [
+    {
+      "name": "Castelao, Guilherme",
+      "affiliation": "Scripps Institution of Oceanography - UC San Diego",
+      "orcid": "0000-0002-6765-0708"
+    }
+  ]
 }
