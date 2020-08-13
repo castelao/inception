@@ -33,6 +33,12 @@ By including the ORCID field, the authors are automatically linked. Check my rec
 Related Identifiers
 -------------------
 
+ - accepted_types: doi, ark, ean13, eissn, handle, isbn, issn, istc, lissn, lsid, purl, upc, url, urn, ads, arxiv, bibcode
+
+ - relation: cites, isSupplementTo
+
+It looks like we can't add manually isVersionOf the project doi. But it is added by them automatically
+
 ex.:
 
 "related_identifiers": [
@@ -40,11 +46,6 @@ ex.:
             "scheme": "url",
             "identifier": "https://github.com/castelao/inception/tree/v0.0.3",
             "relation": "isSupplementTo"
-        },
-        {
-            "scheme": "doi",
-            "identifier": "10.5281/zenodo.3981501",
-            "relation": "isVersionOf"
         },
         {
             "scheme": "doi",
