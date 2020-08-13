@@ -29,3 +29,26 @@ ex.:
 
 
 By including the ORCID field, the authors are automatically linked. Check my record and you'll see my open source projects: https://orcid.org/0000-0002-6765-0708
+
+Related Identifiers
+-------------------
+
+ex.:
+
+"related_identifiers": [
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/castelao/inception/tree/v0.0.3",
+            "relation": "isSupplementTo"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.3981501",
+            "relation": "isVersionOf"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.21105/joss.02063",
+            "relation": "cites"
+        }
+    ]

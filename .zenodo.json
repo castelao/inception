@@ -6,5 +6,22 @@
       "affiliation": "Scripps Institution of Oceanography - UC San Diego",
       "orcid": "0000-0002-6765-0708"
     }
-  ]
+  ],
+  "related_identifiers": [
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/castelao/inception/tree/v0.0.3",
+            "relation": "isSupplementTo"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.3981501",
+            "relation": "isVersionOf"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.21105/joss.02063",
+            "relation": "cites"
+        }
+    ]
 }
