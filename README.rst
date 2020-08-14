@@ -12,7 +12,42 @@ ex.:
 
 "title": "How to tune your DOI record with Zenodo"
 
-creators
+
+Contributors
+------------
+
+A list with contributors.
+
+Possible types: ContactPerson, Researcher, Sponsor, Supervisor
+
+ex.:
+
+"contributors": [
+    {
+      "type": "ContactPerson",
+      "name": "Castelao, Guilherme",
+      "affiliation": "Scripps Institution of Oceanography - UC San Diego",
+      "orcid": "0000-0002-6765-0708"
+    },
+    {
+      "type": "Researcher",
+      "name": "Castelao, Guilherme",
+      "affiliation": "Scripps Institution of Oceanography - UC San Diego",
+      "orcid": "0000-0002-6765-0708"
+    },
+    {
+      "type": "Sponsor",
+      "name": "Southern California Coastal Ocean Observing System"
+    },
+    {
+      "type": "Supervisor",
+      "name": "Castelao, Guilherme",
+      "affiliation": "Scripps Institution of Oceanography - UC San Diego",
+      "orcid": "0000-0002-6765-0708"
+    }
+  ],
+
+Creators
 --------
 
 A list with authors. If missing, Zenodo gets this information from Github. I'm not sure how. Probably the list of all contributors?
