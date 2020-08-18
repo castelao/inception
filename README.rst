@@ -10,6 +10,11 @@ FORCE11 is a great reference for data & software citation.
 
 If this repository was useful for you, please consider to star it (somewhere in the top right).
 
+Example
+-------
+
+The .zenodo.json in this repository is an actual example on how to write your descriptor.
+
 title
 -----
 
