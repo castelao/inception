@@ -1,3 +1,9 @@
+=============
+Minting a DOI
+=============
+
+If you don't aready use Zenodo in your repository, check this guide: https://guides.github.com/activities/citable-code/
+
 ================
 Tunning your DOI
 ================
