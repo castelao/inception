@@ -36,7 +36,7 @@ Contributors
 
 A list with contributors.
 
-Possible types: ContactPerson, Researcher, Sponsor, Supervisor
+Possible types: ContactPerson, DataCollector, DataCurator, DataManager, Distributor, Editor, HostingInstitution, Other, Producer, ProjectLeader, ProjectManager, ProjectMember, RegistrationAgency, RegistrationAuthority, RelatedPerson, Researcher, ResearchGroup, RightsHolder, Sponsor, Supervisor, WorkPackageLeader
 
 ex.:
 
@@ -86,9 +86,9 @@ By including the ORCID field, the authors are automatically linked. Check my rec
 Related Identifiers
 -------------------
 
- - accepted_types: doi, ark, ean13, eissn, handle, isbn, issn, istc, lissn, lsid, purl, upc, url, urn, ads, arxiv, bibcode
+ - accepted_types: ads, ark, arxiv, bioproject, biosample, doi, ean13, ean8, ensembl, genome, gnd, hal, handle, isbn, isni, issn, istc, lsid, orcid, pmcid, pmid, purl, refseq, sra, uniprot, url, urn, swh, ascl
 
- - relation: cites, isSupplementTo
+ - relation: isCitedBy, cites, isSupplementTo, isSupplementedBy, isContinuedBy, continues, hasMetadata, isMetadataFor, isNewVersionOf, isPreviousVersionOf, isPartOf, hasPart, isReferencedBy, references, isDocumentedBy, documents, isCompiledBy, compiles, isVariantFormOf, isOrignialFormOf, isIdenticalTo, isReviewedBy, reviews, isDerivedFrom, isSourceOf
 
 It looks like we can't add manually isVersionOf the project doi. But it is added by them automatically
 
