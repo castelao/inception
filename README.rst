@@ -2,6 +2,9 @@
 Minting a DOI
 =============
 
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3981501.svg
+   :target: https://doi.org/10.5281/zenodo.3981501
+
 If you don't aready use Zenodo in your repository, check this guide: https://guides.github.com/activities/citable-code/
 
 ================
@@ -20,6 +23,7 @@ Example
 -------
 
 The .zenodo.json in this repository is an actual example on how to write your descriptor.
+You can check the outcome result at https://doi.org/10.5281/zenodo.3981501
 
 title
 -----
