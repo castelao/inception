@@ -1,23 +1,26 @@
-=============
-Minting a DOI
-=============
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3981501.svg
    :target: https://doi.org/10.5281/zenodo.3981501
 
-If you don't aready use Zenodo in your repository, check this guide: https://guides.github.com/activities/citable-code/
+=============
+Minting a DOI
+=============
+
+If you are somehow related to academia and write public software, you probably should record a DOI (Digital Object Identifier) for your code.
+The concept is the same as scientific publications, where each article has its DOI, which is associated with the authors, usually through an ORCID.
+Zenodo is a convenient way to do that, and there is a way to link your repository with Zenodo to automate several steps.
+GitHub Guides provide a nice reference on how to set up that: https://guides.github.com/activities/citable-code/
 
 ================
 Tunning your DOI
 ================
 
-If you are somehow related to academia and write public software, you probably should record a DOI (Digital Object Identifier) for your code. The concept is the same of scientific publications, where each article has its DOI, which is associated with the ORCID of the authors. Zenodo is a convenient way to do that, and if you use that, there is a way to finetune the DOI record automatically created by Zenodo.
+Zenodo automatically captures the basic metadata for the DOI record, such as title and authors. However, it can be worthy of providing more information such as: the ORCID of the authors, the published paper that this code is related to, the DOI of the dataset that this code processes, etc.
+It is possible to configure some of those fields manually at Zenodo. Instead, a convenient alternative is by providing that information in a JSON file directly in the repository so that every new release, thus new DOI, Zenodo gets a complete record.
 
 Some important points missed by the default procedure are the possibility to define the funding source for the project, register important contributors that are not authors, and link this project to other projects' DOI or scientific references.
 
 FORCE11 is a great reference for data & software citation.
-
-If this repository was useful for you, please consider to star it (somewhere in the top right).
 
 Example
 -------
