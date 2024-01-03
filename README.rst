@@ -41,8 +41,9 @@ ex.:
 License
 -------
 
-The license of the project. Check https://spdx.org/licenses/ for a list of
-licenses and their abbreviations.
+The license of the project. The https://choosealicense.com is a good reference
+when don't know what to use. Check https://spdx.org/licenses/ for a list of
+licenses and their identifiers.
 
 ex.:
 
